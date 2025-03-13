@@ -11,7 +11,7 @@
     ></script>
     <script
       crossorigin
-      src="https://unpkg.com/react-dom@18/umd/react.development.js"
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
     ></script>
 
     <!-- Babel Standalone for on-the-fly transpilation -->
@@ -485,7 +485,8 @@
                 <h2 className="text-3xl font-bold text-center mb-4">Specialized Services</h2>
                 <div className="w-20 h-1 bg-yellow-500 mx-auto mb-12"></div>
                 
-                /* FIXED the 'md:grid-cols=3' --> 'md:grid-cols-3' */
+                {/* Use a proper JSX comment */}
+                {/* FIXED the 'md:grid-cols=3' --> 'md:grid-cols-3' */}
                 <div className="grid md:grid-cols-3 gap-8">
                   {services.map((service, index) => (
                     <div 
